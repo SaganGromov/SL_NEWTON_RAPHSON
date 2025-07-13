@@ -3,7 +3,7 @@ module constantes
    !--------- Domínio --------------------------------------------------
    real(8), parameter :: a = 0.0d0
    real(8), parameter :: b = 1.0d0
-   real(8), parameter :: lam_chute = 0.0d0  ! Chute inicial para o autovalor
+   real(8), parameter :: lam_chute = 1.4d2  ! Chute inicial para o autovalor
    !--------- Condições de contorno  α y(a)+β y'(a)=0 , γ y(b)+δ y'(b)=0
    real(8), parameter :: alpha = 0.0d0, beta  = 1.0d0     ! y(a)=0
    real(8), parameter :: gamma = 0.0d0, delta = 1.0d0     ! y(b)=0
