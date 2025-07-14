@@ -9,11 +9,11 @@ contains
    pure function q(x) result(val)
       real(8), intent(in) :: x
       real(8)            :: val
-      val = x
+      val = 0
    end function q
    pure function r(x) result(val)
       real(8), intent(in) :: x
       real(8)            :: val
-      val = cos(x)
+      val = 1
    end function r
 end module problema
